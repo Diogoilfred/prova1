@@ -29,8 +29,9 @@ def verificar_situacao(mf):
         return "Reprovado"
     
 def main():
-#RECEBE OS DADOS
+#RECEBE OS DADOS E EXIBE O MENU
     print(" Cálculo da média final: ")
+    
     p1 =  float(input("Nota da 1° prova: "))
     p2 =  float(input("Nota da 2° prova: "))  
     t1 =  float(input("Nota do 1° trabalho: "))
